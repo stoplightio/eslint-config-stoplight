@@ -35,9 +35,12 @@ module.exports = {
     "import/imports-first": 0,
     "object-shorthand": 0,
     "consistent-return": 0,
+    "no-duplicate-case": 0,
+    "no-case-declarations": 0,
+    "no-unused-vars": 1,
     "no-restricted-syntax": ["error", "WithStatement"],
     "no-param-reassign": [
-      "error",
+      "warn",
       {
         "props": false
       }
