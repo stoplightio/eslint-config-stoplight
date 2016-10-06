@@ -33,6 +33,7 @@ module.exports = {
     "import/prefer-default-export": 0,
     "import/no-extraneous-dependencies": 0,
     "import/imports-first": 0,
+    "import/no-absolute-path": 0,
     "object-shorthand": 0,
     "consistent-return": 0,
     "no-duplicate-case": 0,
