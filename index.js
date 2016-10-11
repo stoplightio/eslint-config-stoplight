@@ -15,6 +15,7 @@ module.exports = {
     "no-underscore-dangle": 0,
     "new-cap": 0,
     "import/no-unresolved": 0,
+    "jsx-a11y/no-static-element-interactions": 0,
     "jsx-quotes": [2, "prefer-single"],
     "global-require": 1,
     "space-before-function-paren": [2, "never"],
