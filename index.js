@@ -1,7 +1,11 @@
 module.exports = {
   "extends": "airbnb",
 
-  "plugins": [],
+  "parser": "babel-eslint",
+
+  "plugins": [
+    "react"
+  ],
 
   "parserOptions": {
     "ecmaFeatures": {
@@ -9,9 +13,23 @@ module.exports = {
     }
   },
 
-  globals: {
-    Meteor: true,
+  "env": {
+    "browser": true,
+    "node": true,
+    "es6": true
   },
+
+  "globals": {
+    "Meteor": true,
+    "CONFIG": true,
+    "describe": true,
+    "it": true,
+    "parseInt": true,
+    "fetch": true,
+    "navigator": true,
+    "document": true,
+    "window": true
+  }
 
   rules: {
     "array-callback-return": 0,
@@ -28,6 +46,7 @@ module.exports = {
     "arrow-parens": 0,
     "no-unneeded-ternary": 0,
     "no-bitwise": 0,
+    "class-methods-use-this": 0,
     "max-len": 0,
     "react/prop-types": 0,
     "no-use-before-define": 1,
@@ -43,6 +62,7 @@ module.exports = {
     "react/jsx-filename-extension": 0,
     "react/no-unused-prop-types": 1,
     "react/no-find-dom-node": 1,
+    "react/no-did-update-set-state": 1,
     "prefer-rest-params": 1,
     "guard-for-in": 0,
     "import/extensions": 0,
@@ -63,11 +83,15 @@ module.exports = {
     "no-duplicate-case": 0,
     "no-case-declarations": 0,
     "no-prototype-builtins": 0,
-    "no-unused-vars": 1,
+    "no-unused-vars": 0,
     "camelcase": 1,
     "no-plusplus": 0,
     "no-empty": 1,
     "no-continue": 0,
+    "no-alert": 0,
+    "no-console": 0,
+    "no-self-compare": 0,
+    "default-case": 1,
     "no-restricted-syntax": ["error", "WithStatement"],
     "no-param-reassign": [
       "warn",
