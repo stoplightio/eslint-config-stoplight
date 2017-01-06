@@ -29,7 +29,7 @@ module.exports = {
     "navigator": true,
     "document": true,
     "window": true
-  }
+  },
 
   rules: {
     "array-callback-return": 0,

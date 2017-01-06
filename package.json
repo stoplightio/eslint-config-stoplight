@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-stoplight",
-  "version": "1.0.6",
+  "version": "1.0.5",
   "description": "",
   "main": "index.js",
   "private": false,
@@ -19,7 +19,7 @@
     "eslint": "3.x.x",
     "eslint-config-airbnb": "13.x.x",
     "eslint-plugin-import": "2.x.x",
-    "eslint-plugin-jsx-a11y": "3.x.x",
+    "eslint-plugin-jsx-a11y": "2.x.x",
     "eslint-plugin-react": "6.x.x"
   }
 }
