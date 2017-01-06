@@ -83,7 +83,7 @@ module.exports = {
     "no-duplicate-case": 0,
     "no-case-declarations": 0,
     "no-prototype-builtins": 0,
-    "no-unused-vars": ["warning", {"args": "none"}],
+    "no-unused-vars": [1, {"args": "none"}],
     "camelcase": 1,
     "no-plusplus": 0,
     "no-empty": 1,
