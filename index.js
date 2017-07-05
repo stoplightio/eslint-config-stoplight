@@ -40,5 +40,6 @@ module.exports = {
     'no-invalid-this': 0,
     'react/display-name': 0,
     'new-cap': 1,
+    'react/jsx-no-bind': 1,
   },
 };
