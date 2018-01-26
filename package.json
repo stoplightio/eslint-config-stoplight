@@ -15,14 +15,14 @@
   },
   "homepage": "https://github.com/stoplightio/eslint-config-stoplight#readme",
   "peerDependencies": {
-    "babel-eslint": "7.2.x",
+    "babel-eslint": "8.2.x",
     "eslint": "4.x.x",
     "eslint-config-google": "0.8.x",
     "eslint-plugin-react": "7.1.x",
     "prettier": "1.x.x"
   },
   "devDependencies": {
-    "babel-eslint": "7.2.x",
+    "babel-eslint": "8.2.x",
     "eslint": "4.x.x",
     "eslint-config-google": "0.8.x",
     "eslint-plugin-react": "7.1.x",
