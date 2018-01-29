@@ -1,31 +1,40 @@
 {
   "name": "eslint-config-stoplight",
-  "version": "1.3.1",
-  "description": "",
+  "version": "2.0.0",
+  "description": "Code style at Stoplight.",
   "main": "index.js",
-  "private": false,
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/stoplightio/eslint-config-stoplight.git"
-  },
-  "author": "",
+  "repository": "git@github.com/stoplightio/eslint-config-stoplight.git",
+  "homepage": "https://stoplight.io",
   "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/stoplightio/eslint-config-stoplight/issues"
+  "scripts": {
+    "lint": "yarn eslint .",
+    "lint:fix": "yarn lint --fix",
+    "lint:check": "eslint --print-config .eslintrc.js | eslint-config-prettier-check"
   },
-  "homepage": "https://github.com/stoplightio/eslint-config-stoplight#readme",
+  "keywords": [
+    "javascript",
+    "ecmascript",
+    "eslint",
+    "lint",
+    "config",
+    "prettier"
+  ],
   "peerDependencies": {
-    "babel-eslint": "8.2.x",
+    "babel-eslint": "8.x.x",
     "eslint": "4.x.x",
-    "eslint-config-google": "0.8.x",
-    "eslint-plugin-react": "7.1.x",
-    "prettier": "1.x.x"
+    "eslint-config-google": "0.x.x",
+    "eslint-config-prettier": "2.x.x",
+    "eslint-plugin-prettier": "2.x.x",
+    "eslint-plugin-react": "7.x.x",
+    "prettier": "*"
   },
   "devDependencies": {
-    "babel-eslint": "8.2.x",
+    "babel-eslint": "8.x.x",
     "eslint": "4.x.x",
-    "eslint-config-google": "0.8.x",
-    "eslint-plugin-react": "7.1.x",
-    "prettier": "1.x.x"
+    "eslint-config-google": "0.x.x",
+    "eslint-config-prettier": "2.x.x",
+    "eslint-plugin-prettier": "2.x.x",
+    "eslint-plugin-react": "7.x.x",
+    "prettier": "*"
   }
 }
